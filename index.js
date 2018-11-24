@@ -46,12 +46,9 @@ function makeInt(){
  }
 }
 
-function preserveDecimal(){
-  var n = parseFloat('2.222');
- if(n==='2.222'){
-   return n;
+function preserveDecimal(n){
+ return parseFloat('n');
  }
-}
 
 function preserveDecimal(){
   var n = parseFloat('sldkjflksjf');
