@@ -28,11 +28,6 @@ function dec(a){
   return a-=1;
 }
 
-function makeInt(a){
-   if(parseInt('a')===a){
-     return parseInt('a');
-   }
- }
 
 function makeInt(n){ 
   return parseInt('n',10);
