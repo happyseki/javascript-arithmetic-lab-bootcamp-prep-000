@@ -34,8 +34,8 @@ function makeInt(a){
    }
  }
 
-function makeInt(){ 
-  var n = parseInt(',10);
+function makeInt(n){ 
+  return parseInt('n',10);
   
 }
 
