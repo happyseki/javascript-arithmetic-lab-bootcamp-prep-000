@@ -28,10 +28,11 @@ function dec(a){
   return a-=1;
 }
 
-function makeInt(){
-    var n = parseInt('a',10);
-    return n;
-}
+function makeInt(a){
+   if(parseInt('a')===a){
+     return parseInt('a');
+   }
+ }
 
 function makeInt(){ 
   var n = parseInt('0x2328',10);
@@ -46,8 +47,10 @@ function makeInt(){
 }
 
 function preserveDecimal(){
-  return parseFloat('2.222');
-  
+  var n = parseFloat('2.222');
+ if(n==='2.222'){
+   return n;
+ }
 }
 
 function preserveDecimal(){
